@@ -41,6 +41,7 @@ public class LoanController : ControllerBase
         _context.SaveChanges();
         return CreatedAtAction(nameof(GetLoanById), new { id = loan.id }, loan);
     }
+    
     [HttpPut]
     public IActionResult ModifyLoan(Loan loan){
         Loan? dbLoan = _context.Loans.FirstOrDefault(x => x.id == loan.id);

@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using API_287.Models;
 using API_287.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 [ApiController]
 [Route("api/user")]
@@ -38,7 +37,7 @@ public class UserController : ControllerBase
     [HttpGet("{id}/address")]
     public IActionResult GetUserByIdWithAddress(int id){
         
-        User? user = _context.Users.Include(x => x.Adresse).FirstOrDefault(x => x.id == id);
+        User? user = _context.Users.FirstOrDefault(x => x.id == id);
 
         if (user == null)
         {

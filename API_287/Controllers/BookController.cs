@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using API_287.Models;
 using API_287.Data;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 [ApiController]
 [Route("api/book")]
