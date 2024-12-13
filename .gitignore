@@ -1,0 +1,33 @@
+# .gitignore for C# API with Entity Framework
+
+# General .NET build and working directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio temporary files
+.vscode/
+.vs/
+
+# Rider temporary files
+.idea/
+*.sln.iml
+
+# Others
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.ldb
