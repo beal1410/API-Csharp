@@ -31,5 +31,3 @@ Il faut aussi avoir dotnet
   dotnet ef migrations remove
   ```
 
-### Routes
-
