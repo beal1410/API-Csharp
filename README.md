@@ -1,3 +1,6 @@
+# But
+API réalisé comme démo pour mon cours IFT287 à l'université de sherbrooke.
+
 # README.md pour C# API
 
 ## C# API avec Entity Framework
